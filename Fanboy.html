@@ -39,7 +39,7 @@ and open the template in the editor.
             background-size:100%;
             position: fixed;
             bottom: -15px;
-            z-index:2;            
+            z-index:3;            
             color: white;
         }
         h4{
@@ -80,12 +80,14 @@ and open the template in the editor.
         }
         #map{
             float: right;
-            margin-bottom: 60px;
             margin: 5px;
+            margin-bottom: 120px;
+            
         }
         #contact{
             margin-top: 5px;
             margin-left: 0px;
+            margin-bottom: 30px;
             float: right;
             width:auto;
             text-align: left;
@@ -94,7 +96,13 @@ and open the template in the editor.
             background-color: whitesmoke;
             opacity: .6;
             border: 4px ridge grey;
-            height:375px;
+            height:380px;
+        }
+        #cabin{
+            z-index:2;
+            position:absolute;
+            left:29.2%;
+            top:1310px;
         }
         a:hover, a:active, a:focus { 
                 background-color: rgb(210, 255, 250);
@@ -113,7 +121,7 @@ and open the template in the editor.
         
         <h2>We are open at our new location in the log cabin!!
             <br>
-            <a href=''>Click here for more info.</a> 
+            <a href='#contact'>Click here for more info.</a> 
         </h2>
         
             <div id ='anime'>
@@ -156,7 +164,9 @@ and open the template in the editor.
             Monday - Saturday: 12 pm - 10 pm<br>
             Sunday: 12 pm - 8 pm
         </p>
+        
         </div>
+        <img id='cabin' src='https://img1.wsimg.com/isteam/ip/ca0a750d-b930-48f6-95cc-a594a145c18e/Log%20Cabin%202.jpg/:/rs=h:750,cg:true,m'width='18%'>
         <br><br><br><br>
     </body>
 </html>
